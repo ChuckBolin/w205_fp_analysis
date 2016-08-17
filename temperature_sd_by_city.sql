@@ -13,7 +13,7 @@ SELECT
   (day_temp_5 - day_temp_1) AS delta_5_1,
   (day_temp_6 - day_temp_1) AS delta_6_1,
   (day_temp_7 - day_temp_1) AS delta_7_1
-FROM forecast_weather_flat
+FROM forecast_weather_flat_stream
 GROUP BY 1,2,3,4, day_temp_1, day_temp_2, day_temp_3, day_temp_4, day_temp_5, day_temp_6, day_temp_7
 ORDER BY city_id;
 
