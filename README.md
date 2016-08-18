@@ -9,7 +9,8 @@
 country code and country name mapping
 
 ##w205_fp_viz.twb
-Tableau file that created this live dashboard: https://public.tableau.com/shared/SCPY6MPY5?:display_count=yes
+- Tableau file that created this live dashboard
+- Live Dashboard can be viewed here https://public.tableau.com/shared/SCPY6MPY5?:display_count=yes
 
 ##temperature_sd_by_city.sql
 Calculate temperature deviation by city and create table city_sd_temperature, which was used for Tableau visualization
